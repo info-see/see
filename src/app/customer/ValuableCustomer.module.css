@@ -1,0 +1,28 @@
+/* src/components/ValuableCustomer.module.css */
+.container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .slider {
+    /* display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem; */
+    /* animation: scroll 10s linear infinite; */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(70%);
+    }
+    100% {
+      transform: translateX(-90%);
+    }
+  }
+  
+  .reverse {
+    animation-direction: reverse;
+  }
