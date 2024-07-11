@@ -16,7 +16,7 @@ const AboutUs = () => {
           className="cursor-pointer w-full h-[75svh] object-cover"
         />
         <div className="absolute bottom left-1/2 lg:left-1/5 bg-white w-[80%] lg:max-w-[30%] mx-auto transform -translate-x-1/2 -translate-y-1/2 h-auto border-t-12 border-t-green custom-shadow">
-          <h2 className="mt-4 ml-8 mr-20 2xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg font-source font-bold">
+          <h2 className="mt-4 ml-8 mr-20 custom-h3 font-sans font-bold">
             About us
           </h2>
           <h4 className="my-6 custom-h4 font-sans font-regular ml-8 mr-12">
@@ -25,7 +25,7 @@ const AboutUs = () => {
           </h4>
         </div>
 
-        <div className="container mt-40 px-10 lg:px-40 w-full">
+        <div className="container mt-40 px-6 lg:px-40 w-full">
           <h5 className="custom-h4 py-5 leading-custom-36 font-sans font-regular">
             Southern Engineering Erectors (SEE) is a leading global EPC
             (Engineering, Procurement, and Construction) company specializing in

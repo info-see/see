@@ -4,8 +4,8 @@ import nodemailer from 'nodemailer';
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'info@southernengineering.co.in',  // Your Gmail email address
-    pass: '',     // Your App Password generated for Gmail
+    user: 'sandeeps@cognitud.com',  // Your Gmail email address
+    pass: 'tifpocmllhjcqtfx',     // Your App Password generated for Gmail
   },
 });
 
@@ -13,8 +13,8 @@ const transporter = nodemailer.createTransport({
 export async function sendEmail({ to, subject, html }) {
   try {
     const info = await transporter.sendMail({
-      from: 'info@southernengineering.co.in',
-      to: 'info@southernengineering.co.in',
+      from: 'sandeeps@cognitud.com',
+      to: 'sandeeps@cognitud.com',
       subject,
       html,
     });

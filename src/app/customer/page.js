@@ -53,7 +53,7 @@ const ValuableCustomer = () => {
                       alt={image.alt}
                       width={112}
                       height={112}
-                      className="cursor-pointer max-w-[120px] max-h-[120px] w-auto object-cover"
+                      className="cursor-pointer w-[120px] max-h-[120px] w-auto object-cover"
                       // Add loader attribute to improve initial loading
                       loader={() => image.src} 
                     />

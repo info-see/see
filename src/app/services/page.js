@@ -23,7 +23,7 @@ const services = () => {
           </div>
         </div>
 
-        <div className="container mt-20 px-10 lg:px-40 w-full">
+        <div className="container mt-20 px-6 lg:px-40 w-full">
           <h5 className="custom-h4 py-5 lg:leading-custom-36 leading-custom-28 font-sans font-regular">
             SEE provides a complete range of services including but not limited
             to detailed engineering, fabrication, bought out supply, inspection
@@ -132,7 +132,7 @@ const services = () => {
         </div>
 
         {/* HSE and Security Section */}
-        <div className="container my-20 p-10 px-10 lg:px-30 w-full bg-gray sm:rounded-2xl">
+        <div className="container my-20 p-10 px-10 lg:px-30 w-full bg-darkgray sm:rounded-2xl">
           <h2 className="custom-h2 text-center w-full font-bold font-sans">
             HSE and Security
           </h2>
@@ -180,7 +180,7 @@ const services = () => {
                     alt={item.title}
                     width={1000}
                     height={600}
-                    className="cursor-pointer"
+                    className="cursor-pointer object-cover"
                   />
                   <h4 className="custom-h4 font-sans font-bold text-white absolute top-4 left-4">
                     {item.title}

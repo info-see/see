@@ -11,7 +11,7 @@ const CareerPage = () => {
       <div className="w-full">
         <div className="career-page banner">
           <Image
-            src="/assets/career-layer.png"
+            src="/assets/careers/career-layer.png"
             alt="tag"
             width={1000}
             height={600}
@@ -34,7 +34,7 @@ const CareerPage = () => {
           <div className="border border-gray py-2 px-2 flex justify-between flex-col gap-6">
             <div className="jd-image relative overflow-hidden">
               <Image
-                src="/assets/jd-piping.jpeg"
+                src="/assets/careers/jd-piping.jpeg"
                 alt="tag"
                 width={1000}
                 height={600}
@@ -63,9 +63,19 @@ const CareerPage = () => {
             <div className="pt-6">
               <div className="flex gap-2 items-center">
                 <Link href="/piping-design-engineer">
-                  <h4 className="custom-h5 rounded-lg text-blue font-sans border border-blue py-2 px-6 font-semibold">
-                    Apply Job
-                  </h4>
+                  <div className="flex gap-4 items-center border rounded-2xl border-blue p-2">
+                    <h4 className="custom-h5 text-blue font-sans font-semibold">
+                      Apply Job
+                    </h4>
+
+                    <Image
+                      src="/assets/careers/career-arrow.svg"
+                      alt="tag"
+                      width={32}
+                      height={32}
+                      className="w-auto h-auto"
+                    />
+                  </div>
                 </Link>
               </div>
             </div>
@@ -74,7 +84,7 @@ const CareerPage = () => {
           <div className="border-gray border py-2 px-2 flex flex-col  justify-between">
             <div className="jd-image relative overflow-hidden">
               <Image
-                src="/assets/project-site.jpeg"
+                src="/assets/careers/project-site.jpeg"
                 alt="tag"
                 width={1000}
                 height={600}
@@ -103,9 +113,19 @@ const CareerPage = () => {
             <div className="pt-6">
               <div className="flex gap-2 items-center">
                 <Link href="/project-site-engineer">
-                  <h4 className="custom-h5 rounded-lg text-blue font-sans border border-blue py-2 px-6 font-semibold">
-                    Apply Job
-                  </h4>
+                <div className="flex gap-4 items-center border rounded-2xl border-blue p-2">
+                    <h4 className="custom-h5 text-blue font-sans font-semibold">
+                      Apply Job
+                    </h4>
+
+                    <Image
+                      src="/assets/careers/career-arrow.svg"
+                      alt="tag"
+                      width={32}
+                      height={32}
+                      className="w-auto h-auto"
+                    />
+                  </div>
                 </Link>
               </div>
             </div>
@@ -114,7 +134,7 @@ const CareerPage = () => {
           <div className="border-gray border py-2 px-2 flex flex-col  justify-between">
             <div className="jd-image relative overflow-hidden">
               <Image
-                src="/assets/detail-services.png"
+                src="/assets/careers/ibr-welder-jd.jpg"
                 alt="tag"
                 width={1000}
                 height={600}
@@ -143,9 +163,19 @@ const CareerPage = () => {
             <div className="pt-6">
               <div className="flex gap-2 items-center">
                 <Link href="/ibr-welder">
-                  <h4 className="custom-h5 rounded-lg text-blue font-sans border border-blue py-2 px-6 font-semibold">
-                    Apply Job
-                  </h4>
+                <div className="flex gap-4 items-center border rounded-2xl border-blue p-2">
+                    <h4 className="custom-h5 text-blue font-sans font-semibold">
+                      Apply Job
+                    </h4>
+
+                    <Image
+                      src="/assets/careers/career-arrow.svg"
+                      alt="tag"
+                      width={32}
+                      height={32}
+                      className="w-auto h-auto"
+                    />
+                  </div>
                 </Link>
               </div>
             </div>

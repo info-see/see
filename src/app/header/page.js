@@ -79,10 +79,10 @@ const Navbar = () => {
                   pathname === "/piping-design-engineer" ||
                   pathname === "/project-site-engineer" ||
                   pathname === "/ibr-welder"
-                    ? "/assets/see-logo.png"
+                    ? "/assets/logo/see-logo.png"
                     : scrolled
-                    ? "/assets/see-logo.png"
-                    : "/assets/logo-white.png"
+                    ? "/assets/logo/see-logo.png"
+                    : "/assets/logo/white-see-logo.png"
                 }
                 alt="Logo"
                 width={90}
@@ -168,7 +168,7 @@ const Navbar = () => {
         >
           <div className="flex justify-between h-[100px] items-center w-full px-6">
             <Image
-              src="/assets/see-logo.png"
+              src="/assets/logo/see-logo.png"
               alt="see-logo"
               width={90}
               height={90}

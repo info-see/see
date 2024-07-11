@@ -67,8 +67,8 @@ const AllProject = () => {
     <div className="w-full">
       <div className="relative w-full h-auto">
         <Image
-          src="/assets/slider-new-02.png"
-          alt="about"
+          src="/assets/projects/project-banner.png"
+          alt="projects-banner"
           width={1000}
           height={600}
           className="cursor-pointer w-full h-[75svh] object-cover"

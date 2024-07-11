@@ -7,9 +7,9 @@ import styles from "./Services.module.css";
 
 const servicesData = [
   {
-    borderSrc: "/assets/left-border-blue.png",
+    borderSrc: "/assets/home-services/left-border-blue.png",
     borderAlt: "Left Border Blue",
-    logoSrc: "/assets/detail-engineering.png",
+    logoSrc: "/assets/home-services/detail-engineering.png",
     logoAlt: "Detail Engineering",
     title: "Detail Engineering",
     description:
@@ -17,9 +17,9 @@ const servicesData = [
     link: "./services",
   },
   {
-    borderSrc: "/assets/right-border-green.png",
+    borderSrc: "/assets/home-services/right-border-green.png",
     borderAlt: "Right Border Green",
-    logoSrc: "/assets/fabrication.png",
+    logoSrc: "/assets/home-services/fabrication.png",
     logoAlt: "Fabrication",
     title: "Fabrication",
     description:
@@ -27,9 +27,9 @@ const servicesData = [
     link: "./services",
   },
   {
-    borderSrc: "/assets/left-border-blue.png",
+    borderSrc: "/assets/home-services/left-border-blue.png",
     borderAlt: "Left Border Blue",
-    logoSrc: "/assets/testing.png",
+    logoSrc: "/assets/home-services/testing.png",
     logoAlt: "Testing & Commissioning",
     title: "Testing & Commissioning",
     description:
@@ -37,9 +37,9 @@ const servicesData = [
     link: "./services",
   },
   {
-    borderSrc: "/assets/right-border-green.png",
+    borderSrc: "/assets/home-services/right-border-green.png",
     borderAlt: "Right Border Green",
-    logoSrc: "/assets/supply.png",
+    logoSrc: "/assets/home-services/supply.png",
     logoAlt: "Procurement & Supply",
     title: "Procurement & Supply",
     description:
@@ -47,9 +47,9 @@ const servicesData = [
     link: "./services",
   },
   {
-    borderSrc: "/assets/left-border-blue.png",
+    borderSrc: "/assets/home-services/left-border-blue.png",
     borderAlt: "Left Border Blue",
-    logoSrc: "/assets/Installation.png",
+    logoSrc: "/assets/home-services/Installation.png",
     logoAlt: "Installation",
     title: "Installation",
     description:
@@ -57,9 +57,9 @@ const servicesData = [
     link: "./services",
   },
   {
-    borderSrc: "/assets/right-border-green.png",
+    borderSrc: "/assets/home-services/right-border-green.png",
     borderAlt: "Right Border Green",
-    logoSrc: "/assets/quality.png",
+    logoSrc: "/assets/home-services/quality.png",
     logoAlt: "Quality & Assurance",
     title: "Quality & Assurance",
     description:
@@ -76,7 +76,7 @@ const Services = () => {
           <h1 className="font-sans font-bold custom-h1 text-center w-full text-black">
             Services
           </h1>
-          <h5 className="pt-4 custom-h5 font-sans font-medium">
+          <h5 className="pt-4 custom-h5 font-sans font-medium text-center">
             We provide comprehensive and specialized solutions for piping, tanks and structures.
           </h5>
         </div>
@@ -98,7 +98,7 @@ const Services = () => {
                     alt={service.logoAlt}
                     width={52}
                     height={52}
-                    className="cursor-pointer w-[58px] h-[58px] " // Ensure the image maintains its aspect ratio
+                    className="cursor-pointer w-[58px] h-[58px] object-cover " // Ensure the image maintains its aspect ratio
                   />
                   <div className="content-area flex flex-col">
                     <Link href={service.link}>
