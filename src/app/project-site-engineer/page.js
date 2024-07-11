@@ -27,7 +27,7 @@ const projectSite = () => {
           </div>
         </div>
 
-        <div className="detailing mt-20 mb-20 px-6 lg:px-4">
+        <div className="detailing mt-20 mb-20">
           <div className="container flex flex-col gap-16">
             <div className="about-job">
               <h3 className="custom-h3 font-sans font-bold">About the Job</h3>

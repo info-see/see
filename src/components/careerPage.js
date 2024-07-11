@@ -63,7 +63,7 @@ const CareerPage = () => {
             <div className="pt-6">
               <div className="flex gap-2 items-center">
                 <Link href="/piping-design-engineer">
-                  <div className="flex gap-4 items-center border rounded-2xl border-blue p-2">
+                  <div className="flex gap-4 items-center">
                     <h4 className="custom-h5 text-blue font-sans font-semibold">
                       Apply Job
                     </h4>
@@ -113,7 +113,7 @@ const CareerPage = () => {
             <div className="pt-6">
               <div className="flex gap-2 items-center">
                 <Link href="/project-site-engineer">
-                <div className="flex gap-4 items-center border rounded-2xl border-blue p-2">
+                <div className="flex gap-4 items-center">
                     <h4 className="custom-h5 text-blue font-sans font-semibold">
                       Apply Job
                     </h4>
@@ -163,7 +163,7 @@ const CareerPage = () => {
             <div className="pt-6">
               <div className="flex gap-2 items-center">
                 <Link href="/ibr-welder">
-                <div className="flex gap-4 items-center border rounded-2xl border-blue p-2">
+                <div className="flex gap-4 items-center ">
                     <h4 className="custom-h5 text-blue font-sans font-semibold">
                       Apply Job
                     </h4>
