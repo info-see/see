@@ -44,7 +44,8 @@ export default function Home() {
           <Industry />
 
       </div> */}
-
+      
+{/* <CookieConsent /> */}
       <div className=" container services my-20">
         <HomeServices />
       </div>

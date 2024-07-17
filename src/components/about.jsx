@@ -366,7 +366,7 @@ const AboutUs = () => {
                 alt="core-principle"
                 width={1000}
                 height={600}
-                className="cursor-pointer w-full h-full object-contain"
+                className="cursor-pointer w-full h-auto object-contain"
               />
             </div>
 
@@ -422,7 +422,7 @@ const AboutUs = () => {
                 alt="core-principle"
                 width={1000}
                 height={600}
-                className="cursor-pointer w-full h-full object-contain"
+                className="cursor-pointer w-full h-auto object-contain"
               />
             </div>
           </div>

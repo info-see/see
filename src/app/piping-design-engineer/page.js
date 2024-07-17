@@ -40,8 +40,8 @@ const pipingDesign = () => {
                 all major process and utility piping according to P&IDs and
                 project standards is essential. The candidate should be
                 proficient in producing and checking common piping deliverables,
-                such as isometrics, piping GA's, tie-in details, and plot plans.
-                Proficiency in any one of E3D/PDMS/S3D/AUTO CAD modeling
+                such as isometrics, piping GA&#39;s, tie-in details, and plot
+                plans. Proficiency in any one of E3D/PDMS/S3D/AUTO CAD modeling
                 software is an added advantage
               </h5>
             </div>
@@ -51,48 +51,48 @@ const pipingDesign = () => {
                 Key Responsibilities:
               </h3>
               <div className="flex flex-row  flex-wrap lg:flex-nowrap gap-12">
-              <ul className="w-full lg:w-[60%]  m-0 p-0 list-inside list-disc">
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Develop and implement piping design concepts in accordance
-                  with project standards and P&IDs.
-                </li>
+                <ul className="w-full lg:w-[60%]  m-0 p-0 list-inside list-disc">
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Develop and implement piping design concepts in accordance
+                    with project standards and P&IDs.
+                  </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Produce and check common piping deliverables including
-                  isometrics, piping GA's, tie-in details, and plot plans.
-                </li>
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Produce and check common piping deliverables including
+                    isometrics, piping GA&#39;s, tie-in details, and plot plans.
+                  </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Clearly understand piping standards and details.
-                </li>
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Clearly understand piping standards and details.
+                  </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Collaborate with cross-functional teams to ensure timely
-                  project completion.
-                </li>
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Collaborate with cross-functional teams to ensure timely
+                    project completion.
+                  </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Ensure compliance with safety regulations and company
-                  policies.
-                </li>
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Ensure compliance with safety regulations and company
+                    policies.
+                  </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Stay current with emerging technologies and industry trends.
-                </li>
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Stay current with emerging technologies and industry trends.
+                  </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
-                  Proficiency in any one of E3D/PDMS/S3D/AUTO CAD modeling
-                  software is an added advantage.
-                </li>
-              </ul>
-              <Image
+                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                    Proficiency in any one of E3D/PDMS/S3D/AUTO CAD modeling
+                    software is an added advantage.
+                  </li>
+                </ul>
+                <Image
                   src="/assets/careers/jd-piping.jpeg"
                   alt="tag"
                   width={1000}
                   height={600}
                   className="w-full lg:w-[40%] max-h-[350px] relative lg:col-span-1"
                 />
-                </div>
+              </div>
             </div>
 
             <div className="about-you">
@@ -117,7 +117,7 @@ const pipingDesign = () => {
 
                   <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Proficiency in producing and checking common piping
-                    deliverables including isometrics, piping GA's, tie-in
+                    deliverables including isometrics, piping GA&#39;s, tie-in
                     details, and plot plans.
                   </li>
 
@@ -148,8 +148,7 @@ const pipingDesign = () => {
               </div>
 
               <h5 className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-6">
-                If you are interested, please share your CV
-                at{" "}
+                If you are interested, please share your CV at{" "}
                 <a
                   href="mailto:sb@southernengineering.co.in"
                   className="text-blue font-bold underline"

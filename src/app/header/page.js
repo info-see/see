@@ -87,7 +87,7 @@ const Navbar = () => {
                 alt="Logo"
                 width={90}
                 height={90}
-                className="w-auto cursor-pointer h-auto"
+                className="w-[5.5rem] cursor-pointer h-auto"
               />
             </Link>
           </h1>
@@ -183,10 +183,10 @@ const Navbar = () => {
               onClick={toggleNav}
             />
           </div>
-          <div className="pt-12">
+          <div className="pt-12 flex items-center flex-col">
           {links.map(({ id, link, url }) => (
             <Link key={id} href={url} onClick={toggleNav}>
-              <li className="font-sans px-4 cursor-pointer capitalize py-6 custom-h3">
+              <li className="font-sans lg:px-4 cursor-pointer capitalize py-6 custom-h3">
                 {link}
               </li>
             </Link>

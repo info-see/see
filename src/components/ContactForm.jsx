@@ -63,7 +63,7 @@ export default function ContactForm() {
       {showSuccessPopup && <SuccessPopup onClose={handleClosePopup} />}
       <div className="">
         <h2 className="mb-4 font-sans text-xl 2xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl tracking-tight font-bold dark:text-white">
-          Let's Collaborate!
+          Let&#39;s Collaborate!
         </h2>
         <form onSubmit={handleSubmit} className="space-y-8 mt-8">
           <div>

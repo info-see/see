@@ -12,7 +12,7 @@ const projectData = [
       "Supply, fabrication & installation of IBR and non-IBR piping for 300 KLPD Syrup & grain-based Ethanol plant at Kolhapur, Maharashtra",
   },
   {
-    src: "/assets/projects/partnership-image.png",
+    src: "/assets/projects/rungta-mines.png",
     alt: "Rungta Mines",
     title: "Rungta Mines",
     description:

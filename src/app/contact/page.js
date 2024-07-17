@@ -45,7 +45,7 @@ const contact = () => {
 
                   <div className="flex flex-col gap-10">
                     <div className="div">
-                      <h3 className="custom-h5 font-sans font-medium tracking-custom-wide">
+                      <h3 className="custom-h5 font-sans font-medium ">
                         3rd Floor, Lancor Westminster
                         <br />
                         108, Dr Radha Krishnan Salai, Mylapore
@@ -59,7 +59,7 @@ const contact = () => {
                     </div>
 
                     <div className="div">
-                      <h3 className="custom-h5 font-sans font-medium tracking-custom-wide">
+                      <h3 className="custom-h5 font-sans font-medium">
                         566 Anna Salai, Teynampet
                         <br />
                         Chennai, Tamil Nadu. 600018, India
@@ -95,7 +95,7 @@ const contact = () => {
                   />
 
                   <div className="div flex-col gap-10">
-                    <h3 className="custom-h5 font-sans font-medium tracking-custom-wide">
+                    <h3 className="custom-h5 font-sans font-medium ">
                       2nd Floor, MPD Tower, Golf Course Rd, Sector 43,
                       <br />
                       Gurugram, Haryana. 122002
@@ -112,7 +112,7 @@ const contact = () => {
             <div className="office grid grid-cols-1 gap-20">
               <div className="heading flex flex-col gap-12">
               <div className="item">
-                <h3 className="custom-h5 font-sans font-medium tracking-custom-wide">
+                <h3 className="custom-h5 font-sans font-medium ">
                   Workshops
                 </h3>
                 <h4 className="custom-h4 font-sans font-bold tracking-custom-wide">
@@ -135,7 +135,7 @@ const contact = () => {
                         Workshop 1
                       </h4>
                       <div className="div w-full ">
-                        <h3 className="custom-h5 font-sans font-medium tracking-custom-wide">
+                        <h3 className="custom-h5 font-sans font-medium ">
                           No. 10, Vivekanand Street, Balaji Nagar,
                           <br />
                           Ambattur, Chennai. Tamil Nadu. 600053. India
@@ -148,7 +148,7 @@ const contact = () => {
                         Workshop 2
                       </h4>
                       <div className="div w-full ">
-                        <h3 className="custom-h5 font-sans font-medium tracking-custom-wide ">
+                        <h3 className="custom-h5 font-sans font-medium ">
                           Survey No.91, Mylapore Village, Devandhavakkam Post,
                           <br />
                           Poondi, Thiruvallur to Utthukottai High Road,

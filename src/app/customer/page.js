@@ -26,10 +26,12 @@ const customerImages = [
   { src: "/assets/customer/parle.png", alt: "Customer Parle" },
   { src: "/assets/customer/kaka.png", alt: "Customer Kaka" },
   { src: "/assets/customer/balrampur.png", alt: "Customer Balrampur" },
-  { src: "/assets/customer/algavista.png", alt: "Customer algavista" },
+  { src: "/assets/customer/algavista.png", alt: "Customer Algavista" },
 ];
 
 const ValuableCustomer = () => {
+  console.log(customerImages);
+
   return (
     <>
       <div className="w-full h-auto container">
@@ -47,15 +49,13 @@ const ValuableCustomer = () => {
               {customerImages.map((image, index) => (
                 <div className="flex items-center justify-center" key={index}>
                   <div className="m-auto">
-                    {/* Use next/image component */}
                     <Image
-                      src={image.src}
+                      src={`${image.src}?v=${new Date().getTime()}`}
                       alt={image.alt}
                       width={112}
                       height={112}
-                      className="cursor-pointer w-[120px] max-h-[120px] w-auto object-cover"
-                      // Add loader attribute to improve initial loading
-                      loader={() => image.src} 
+                      className="cursor-pointer max-w-[120px] max-h-[120px] w-auto object-cover"
+                      unoptimized
                     />
                   </div>
                 </div>
