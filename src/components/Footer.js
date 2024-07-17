@@ -139,6 +139,14 @@ const Footer = () => {
               Projects
             </h5>
           </Link>
+
+          <Link href="/careers">
+            <h5 className="custom-h5 font-sans hover:scale-105 hover:font-bold hover:text-green">
+              Careers
+            </h5>
+          </Link>
+
+
           <Link href="/contact">
             <h5 className="custom-h5 font-sans hover:scale-105 hover:font-bold hover:text-green">
               Contact Us
