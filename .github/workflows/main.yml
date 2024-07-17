@@ -22,11 +22,11 @@ jobs:
         npm install
         npm run build
     
-    - name: 📂 Sync files ${{ secrets.FTP_SERVER }} ${{ secrets.FTP_USER }} ${{ secrets.FTP_PWD }} ${{ secrets.FTP_PROTOCAL }}
+    - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PWD }}
+        server: ftp.qudigit.in
+        username: southernengineering@southernengineering.co.in
+        password: SouthernEngineering
         protocol: ${{ secrets.FTP_PROTOCAL }}
         local-dir: ./
