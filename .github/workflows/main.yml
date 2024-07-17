@@ -29,4 +29,5 @@ jobs:
         server: ftp.qudigit.in
         username: southernengineering@southernengineering.co.in
         password: SouthernEngineering
+        protocol: SFTP
         local-dir: ./public/
