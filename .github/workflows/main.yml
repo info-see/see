@@ -28,5 +28,5 @@ jobs:
         server: ftp.qudigit.in
         username: southernengineering@southernengineering.co.in
         password: SouthernEngineering
-        protocol: ${{ secrets.FTP_PROTOCAL }}
-        local-dir: ./
+        protocol: ftps
+        local-dir: /
