@@ -21,6 +21,7 @@ jobs:
       run: |
         npm install
         npm run build
+        ls -ltr
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -29,4 +30,4 @@ jobs:
         username: southernengineering@southernengineering.co.in
         password: SouthernEngineering
         protocol: ftps
-        local-dir: /
+        local-dir: ./public/
