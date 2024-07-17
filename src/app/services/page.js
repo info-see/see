@@ -180,9 +180,9 @@ const services = () => {
                     alt={item.title}
                     width={1000}
                     height={600}
-                    className="cursor-pointer object-cover"
+                    className="cursor-pointer object-cover h-auto full" 
                   />
-                  <h4 className="custom-h4 font-sans font-bold text-white absolute top-4 left-4">
+                  <h4 className="custom-h4 font-sans font-bold text-white absolute top-2 left-4">
                     {item.title}
                   </h4>
                 </div>
