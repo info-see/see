@@ -31,3 +31,6 @@ jobs:
         password: ~.Ge.0D8wY=_
         protocol: ftps
         local-dir: ./
+        exclude: |
+          **/.git*
+          **/.git*/**
