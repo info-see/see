@@ -26,8 +26,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.qudigit.in
-        username: southernengineering@southernengineering.co.in
-        password: SouthernEngineering
+        server: 103.160.106.28
+        username: test@southernengineering.co.in
+        password: ~.Ge.0D8wY=_
         protocol: ftps
-        local-dir: ./public/
+        local-dir: ./
