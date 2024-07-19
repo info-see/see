@@ -31,6 +31,3 @@ jobs:
           password: ${{secrets.FTP_PWD}}
           protocol: ${{secrets.FTP_PROTOCOL}}
           local-dir: ./
-          exclude: |
-            **/.git*
-            **/.git*/**
