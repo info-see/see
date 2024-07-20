@@ -8,7 +8,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton"; // Import the Sc
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "SSE",
+  title: "SEE",
   description:
     "Our expertise lies in design, fabrication and erection of high, medium and low pressure piping, boiler pressure parts - super heater coils, economizers, boiler Tubes, headers, TG sets and tanks and vessels.",
 };

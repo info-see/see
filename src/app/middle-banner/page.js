@@ -14,7 +14,7 @@ const imageData = [
     className: "cursor-pointer",
   },
   {
-    src: "/assets/factory-picture-new.png",
+    src: "/assets/factory-banner/factory-picture-new.png",
     alt: "factory",
     width: 1000,
     height: 600,
