@@ -51,12 +51,12 @@ const ibrWelder = () => {
 
               <div className="flex flex-row  flex-wrap lg:flex-nowrap gap-12">
                 <ul className="w-full lg:w-[60%] m-0 p-0 list-inside list-disc">
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Interpret blueprints, drawings, and measurements to plan
                     layouts.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Weld various components, including copper plumbing, beams,
                     and pipelines.
                   </li>
@@ -66,26 +66,26 @@ const ibrWelder = () => {
                     oversee automated welding processes.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Maintain and repair all welding machinery.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Evaluate welded surfaces, structures, and components to
                     identify errors.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Adhere to and enforce strict safety regulations, such as
                     wearing heat-resistant gloves, protective masks, and safety
                     shoes.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Monitor machinery for proper use and temperature control.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Perform welding tasks in flat, vertical, and overhead
                     positions.
                   </li>
@@ -110,29 +110,29 @@ const ibrWelder = () => {
 
               <div className="points px-4">
                 <ul className="m-0 p-0 list-inside list-disc">
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     High school diploma or equivalent.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     A valid welding certificate from an accredited institution
                     is preferred.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     At least 2 years of experience as a welder.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Excellent knowledge of welding machinery, electrical
                     equipment, and manual tools.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Ability to read and interpret blueprints and designs.
                   </li>
 
-                  <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
+                  <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2 pl-5 -indent-5">
                     Exceptional attention to detail.
                   </li>
                 </ul>
@@ -150,14 +150,14 @@ const ibrWelder = () => {
                 , along with the following details:
               </h5>
               <ul className="m-0 px-4 list-inside list-disc">
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2  pl-5 -indent-5">
+                <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2  pl-5 -indent-5">
                   Current CTC:
                 </li>
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2  pl-5 -indent-5">
+                <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2  pl-5 -indent-5">
                   Expected CTC:
                 </li>
 
-                <li className="custom-h4 font-sans font-medium lg:leading-custom-36 leading-custom-28 pt-2  pl-5 -indent-5">
+                <li className="custom-h4 font-sans font-regular lg:leading-custom-36 leading-custom-28 pt-2  pl-5 -indent-5">
                   Notice Period:
                 </li>
               </ul>

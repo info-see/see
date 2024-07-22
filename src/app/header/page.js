@@ -158,7 +158,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`flex flex-col  items-center absolute top-0 left-0 w-full h-screen bg-white text-black transition-transform duration-300 ${
+          className={`flex flex-col  items-center absolute top-0 left-0 w-full h-[100svh] bg-white text-black transition-transform duration-300 ${
             nav
               ? "menu-enter-active"
               : menuTransition
@@ -183,10 +183,10 @@ const Navbar = () => {
               onClick={toggleNav}
             />
           </div>
-          <div className="pt-12 flex items-center flex-col">
+          <div className="flex items-center flex-col justify-center h-full">
           {links.map(({ id, link, url }) => (
             <Link key={id} href={url} onClick={toggleNav}>
-              <li className="font-sans lg:px-4 cursor-pointer capitalize py-6 custom-h3">
+              <li className="font-sans lg:px-4 cursor-pointer capitalize py-6 custom-h4">
                 {link}
               </li>
             </Link>

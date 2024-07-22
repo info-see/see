@@ -2,7 +2,10 @@ import connectDB from "@/app/lib/mongodb";
 import Contact from "@/app/models/contact";
 import { NextResponse } from "next/server";
 import mongoose from "mongoose";
-import { sendEmail } from "@/utils/nodemailer";  // Adjust the path as per your project structure
+import { sendEmail } from "@/utils/nodemailer"; // Adjust the path as per your project structure
+
+// Ensure database connection is reused
+connectDB();
 
 export async function POST(req) {
   try {
@@ -14,9 +17,6 @@ export async function POST(req) {
       throw new Error("Required fields are missing.");
     }
 
-    // Connect to MongoDB
-    await connectDB();
-
     // Create a new Contact document using Mongoose model
     const newContact = new Contact({
       fullname,
@@ -25,11 +25,10 @@ export async function POST(req) {
       phoneNumber,
       comments,
     });
-    await newContact.save();
 
     // Send email notification
     const emailPromise = sendEmail({
-      to: 'sandeepcharan7300@gmail.com',  // Replace with recipient email address
+      to: 'sandeeps@cognitud.com',  // Replace with recipient email address
       subject: 'New Contact Form Submission',
       html: `
         <h2>New Contact Form Submission</h2>
@@ -41,7 +40,8 @@ export async function POST(req) {
       `,
     });
 
-    await emailPromise;
+    // Run database save and email sending in parallel
+    await Promise.all([newContact.save(), emailPromise]);
 
     // Return success response
     return NextResponse.json({
