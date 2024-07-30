@@ -10,7 +10,7 @@ const services = () => {
       <div className="">
         <div className="relative w-full h-auto">
           <Image
-            src="/assets/services/detail-services.png"
+            src="/assets/services/services-banner.png"
             alt="about"
             width={1000}
             height={600}

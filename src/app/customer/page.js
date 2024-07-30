@@ -30,7 +30,7 @@ const customerImages = [
 ];
 
 const ValuableCustomer = () => {
-  console.log(customerImages);
+  // console.log(customerImages);
 
   return (
     <>

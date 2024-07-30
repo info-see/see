@@ -126,7 +126,7 @@ const projectSite = () => {
                   </li>
                 </ul>
                 <Image
-                  src="/assets/careers/project-site.jpeg"
+                  src="/assets/careers/jd-project-site.jpeg"
                   alt="tag"
                   width={1000}
                   height={600}

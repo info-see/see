@@ -92,7 +92,7 @@ const ibrWelder = () => {
                 </ul>
 
                 <Image
-                  src="/assets/careers/ibr-welder-jd.jpg"
+                  src="/assets/careers/jd-ibr-welder.jpg"
                   alt="tag"
                   width={1000}
                   height={600}

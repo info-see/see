@@ -12,7 +12,7 @@ const contact = () => {
           </div>
           <div className="flex flex-col items-center min-w-full pt-4 lg:pt-20">
             <Image
-              src="/assets/contact/contact-new.jpeg"
+              src="/assets/contact/contact-banner.jpeg"
               alt="contact-us-image"
               width={580}
               height={580}
@@ -35,7 +35,7 @@ const contact = () => {
                 </div>
                 <div className="flex gap-10 lg:gap-20  flex-col lg:flex-row">
                   <Image
-                    src="/assets/contact/chennai.jpg"
+                    src="/assets/contact/chennai-office.jpg"
                     alt="chennai office"
                     width={1000}
                     height={600}
@@ -86,7 +86,7 @@ const contact = () => {
                 </div>
                 <div className="flex gap-10 lg:gap-20  flex-col lg:flex-row">
                   <Image
-                    src="/assets/contact/gurgaon.png"
+                    src="/assets/contact/gurgaon-office.png"
                     alt="chennai office"
                     width={1000}
                     height={600}
@@ -121,7 +121,7 @@ const contact = () => {
                 </div>
                 <div className="flex gap-10 lg:gap-20  flex-col lg:flex-row">
                   <Image
-                    src="/assets/contact/workshop.png"
+                    src="/assets/contact/workshop-office.png"
                     alt="Workshops"
                     width={1000}
                     height={600}
@@ -154,6 +154,46 @@ const contact = () => {
                           Poondi, Thiruvallur to Utthukottai High Road,
                           Utthukottai Taluk, <br />
                           Thiruvallur District. Tamil Nadu. 602023. India
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="office grid grid-cols-1 gap-20">
+              <div className="heading flex flex-col gap-12">
+              <div className="item">
+                <h3 className="custom-h5 font-sans font-medium ">
+                  Workshops
+                </h3>
+                <h4 className="custom-h4 font-sans font-bold tracking-custom-wide">
+                Umm Al Quwain, UAE
+                </h4>
+                </div>
+                <div className="flex gap-10 lg:gap-20  flex-col lg:flex-row">
+                  <Image
+                    src="/assets/contact/uae-office.jpeg"
+                    alt="Workshops"
+                    width={1000}
+                    height={600}
+                    priority
+                    className="object-cover w-[350px] h-[250px]"
+                  />
+
+                  <div className="flex flex-col gap-10">
+                    <div className="workshops w-full">
+                      <h4 className="custom-h4 font-sans font-bold tracking-custom-wide">
+                        Workshop 1
+                      </h4>
+                      <div className="div w-full ">
+                        <h3 className="custom-h5 font-sans font-medium ">
+                          New Industrial Area,
+                          <br />
+                          P.O. Box-13760, Umm Al Quwain,
+                          <br />
+                          UAE
                         </h3>
                       </div>
                     </div>

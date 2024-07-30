@@ -84,7 +84,7 @@ const CareerPage = () => {
           <div className="border-gray border py-2 px-2 flex flex-col  justify-between">
             <div className="jd-image relative overflow-hidden">
               <Image
-                src="/assets/careers/project-site.jpeg"
+                src="/assets/careers/jd-project-site.jpeg"
                 alt="tag"
                 width={1000}
                 height={600}
@@ -134,7 +134,7 @@ const CareerPage = () => {
           <div className="border-gray border py-2 px-2 flex flex-col  justify-between">
             <div className="jd-image relative overflow-hidden">
               <Image
-                src="/assets/careers/ibr-welder-jd.jpg"
+                src="/assets/careers/jd-ibr-welder.jpg"
                 alt="tag"
                 width={1000}
                 height={600}

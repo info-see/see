@@ -13,19 +13,19 @@ import MiddleBanner from "@/app/middle-banner/page";
 
 const images = [
   {
-    url: "/assets/banners/new-banner-01.png",
+    url: "/assets/banners/slider-1.png",
     heading: `Southern Engineering Partners with Olam Agri for 300KLPD Grain Based Ethanol Plant`,
     redirectUrl: "/projects",
     buttonText: "Read More", // Button text for the first image
   },
   {
-    url: "/assets/banners/new-banner-02.jpeg",
+    url: "/assets/banners/slider-2.jpeg",
     heading: "Design, Fabrication & Installation of High Pressure Piping",
     redirectUrl: "/services",
     buttonText: "Read More", // Button text for the second image
   },
   {
-    url: "/assets/banners/new-banner-03.png",
+    url: "/assets/banners/slider-3.png",
     heading: "Design, Fabrication & Installation of Tanks and Structures",
     redirectUrl: "/services",
     buttonText: "Read More", // Button text for the third image
