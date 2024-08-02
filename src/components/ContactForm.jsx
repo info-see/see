@@ -59,7 +59,8 @@ export default function ContactForm() {
   return (
     <section className="bg-white">
       <Toaster />
-      {loading && <Loader />} {/* Render the loader if loading is true */}
+      {/* {loading && <Loader />}  */}
+      {/* Render the loader if loading is true */}
       {showSuccessPopup && <SuccessPopup onClose={handleClosePopup} />}
       <div className="">
         <h2 className="mb-4 font-sans text-xl 2xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl tracking-tight font-bold dark:text-white">
